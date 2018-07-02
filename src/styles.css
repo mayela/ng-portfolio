@@ -1,1 +1,129 @@
-/* You can add global styles to this file, and also import other style files */
+/************************
+********* General *******
+*************************/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%
+}
+
+h3 {
+    margin: 0 0 1em 0;
+}
+
+/***********************
+********* Heading *******
+************************/
+
+header {
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+}
+
+#logo {
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    margin: 15px 0;
+    font-size: 1.75em;
+    font-weight: normal;
+    line-height: 0.8em;
+}
+
+h2 {
+    font-size: 1.25em;
+    margin: -5px 0 0;
+    font-weight: normal;
+}
+
+/***********************
+****** Navigation ******
+************************/
+
+nav {
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    font-weight: 800;
+    padding: 15px 10px;
+}
+
+/***********************
+******** Footer ********
+************************/
+
+footer {
+    font-size: 1.25em;
+    text-align: center;
+    clear: both;
+    padding-top: 50px;
+    color: #ccc;
+}
+
+
+/***********************
+********* Colors *******
+************************/
+
+body {
+    background-color: #fff;
+    color: #999;
+}
+
+header {
+    background: #6ab47b;
+    border-color: #599a68;
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+nav {
+    background: #599a68;
+}
+
+nav a, nav a:visited {
+    color:#fff;
+}
+
+nav a.selected, nav a:hover {
+    color: #32673f;
+}
+
+a {
+    color: #6ab47b;
+}
